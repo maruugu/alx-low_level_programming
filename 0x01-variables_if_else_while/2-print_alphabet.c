@@ -6,8 +6,11 @@
  */
 int main(void)
 {
-int ch;
-for (ch = 'a' ; ch <= 'z' ; ch++)
-putchar (ch);
+int c;
+for (char c = 'a' ; c <= 'z' ; c++)
+{
+putchar(c);
+}
+putchar ('\n');
 return (0);
 }
