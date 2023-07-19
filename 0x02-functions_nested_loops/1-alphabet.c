@@ -5,8 +5,12 @@
  * description: 'prints the alphabet,in lowercase'
  * Return: always 0.
  */
-int main(void)
+void print_alphabet(void)
 {
-	printf("alphabet");
-	return (0);
+	int l;
+	for (l = 'a'; l <= 'z'; l++)
+	{
+		_putchar(l);
+	}
+	_putchar('\n');
 }
